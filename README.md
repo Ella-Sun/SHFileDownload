@@ -7,4 +7,4 @@
 <br>
 现在的进展：【备】：由于网速比较慢，影响了下载进度😂
 <br>
-![gif图片](https://github.com/Ellerbe/SHDownload/blob/master/SHDownload/Download.gif)
+![gif图片](https://raw.githubusercontent.com/Ellerbe/SHFileDownload/master/Download.gif)
