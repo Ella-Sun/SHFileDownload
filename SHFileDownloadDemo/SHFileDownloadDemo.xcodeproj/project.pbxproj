@@ -17,12 +17,7 @@
 		A46FFD4C1EC997A3004EEC3A /* SHFileDownloadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A46FFD4B1EC997A3004EEC3A /* SHFileDownloadDemoUITests.m */; };
 		A46FFD5C1EC997BD004EEC3A /* DownloadFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A46FFD5B1EC997BD004EEC3A /* DownloadFileTool.m */; };
 		A46FFD5E1EC99800004EEC3A /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A46FFD5D1EC99800004EEC3A /* timg.jpeg */; };
-		A46FFD6D1EC998C2004EEC3A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A46FFD611EC998C2004EEC3A /* AFHTTPSessionManager.m */; };
-		A46FFD6E1EC998C2004EEC3A /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A46FFD641EC998C2004EEC3A /* AFNetworkReachabilityManager.m */; };
-		A46FFD6F1EC998C2004EEC3A /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A46FFD661EC998C2004EEC3A /* AFSecurityPolicy.m */; };
-		A46FFD701EC998C2004EEC3A /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A46FFD681EC998C2004EEC3A /* AFURLRequestSerialization.m */; };
-		A46FFD711EC998C2004EEC3A /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A46FFD6A1EC998C2004EEC3A /* AFURLResponseSerialization.m */; };
-		A46FFD721EC998C2004EEC3A /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A46FFD6C1EC998C2004EEC3A /* AFURLSessionManager.m */; };
+		AB5BB13079FE7C570E7815B3 /* libPods-SHFileDownloadDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B67AD0E99240459D7AE036C0 /* libPods-SHFileDownloadDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,19 +57,9 @@
 		A46FFD5A1EC997BD004EEC3A /* DownloadFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadFileTool.h; sourceTree = "<group>"; };
 		A46FFD5B1EC997BD004EEC3A /* DownloadFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadFileTool.m; sourceTree = "<group>"; };
 		A46FFD5D1EC99800004EEC3A /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = timg.jpeg; path = attachImages/timg.jpeg; sourceTree = "<group>"; };
-		A46FFD601EC998C2004EEC3A /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		A46FFD611EC998C2004EEC3A /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		A46FFD621EC998C2004EEC3A /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		A46FFD631EC998C2004EEC3A /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		A46FFD641EC998C2004EEC3A /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		A46FFD651EC998C2004EEC3A /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
-		A46FFD661EC998C2004EEC3A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
-		A46FFD671EC998C2004EEC3A /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		A46FFD681EC998C2004EEC3A /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		A46FFD691EC998C2004EEC3A /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		A46FFD6A1EC998C2004EEC3A /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		A46FFD6B1EC998C2004EEC3A /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
-		A46FFD6C1EC998C2004EEC3A /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		B55E6F5411C05060156B5BAC /* Pods-SHFileDownloadDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHFileDownloadDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHFileDownloadDemo/Pods-SHFileDownloadDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B67AD0E99240459D7AE036C0 /* libPods-SHFileDownloadDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHFileDownloadDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B9A116041194F94D7410DD /* Pods-SHFileDownloadDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHFileDownloadDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHFileDownloadDemo/Pods-SHFileDownloadDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5BB13079FE7C570E7815B3 /* libPods-SHFileDownloadDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A8FE443750B457C360CF549 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9A116041194F94D7410DD /* Pods-SHFileDownloadDemo.debug.xcconfig */,
+				B55E6F5411C05060156B5BAC /* Pods-SHFileDownloadDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8866F9E2DB5682B6AFF1606A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B67AD0E99240459D7AE036C0 /* libPods-SHFileDownloadDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A46FFD1A1EC997A2004EEC3A = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +112,8 @@
 				A46FFD3F1EC997A3004EEC3A /* SHFileDownloadDemoTests */,
 				A46FFD4A1EC997A3004EEC3A /* SHFileDownloadDemoUITests */,
 				A46FFD241EC997A2004EEC3A /* Products */,
+				6A8FE443750B457C360CF549 /* Pods */,
+				8866F9E2DB5682B6AFF1606A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,7 +148,6 @@
 		A46FFD261EC997A2004EEC3A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A46FFD5F1EC998C2004EEC3A /* AFNetworking */,
 				A46FFD271EC997A2004EEC3A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -176,26 +180,6 @@
 			path = SHFileDownload;
 			sourceTree = "<group>";
 		};
-		A46FFD5F1EC998C2004EEC3A /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				A46FFD601EC998C2004EEC3A /* AFHTTPSessionManager.h */,
-				A46FFD611EC998C2004EEC3A /* AFHTTPSessionManager.m */,
-				A46FFD621EC998C2004EEC3A /* AFNetworking.h */,
-				A46FFD631EC998C2004EEC3A /* AFNetworkReachabilityManager.h */,
-				A46FFD641EC998C2004EEC3A /* AFNetworkReachabilityManager.m */,
-				A46FFD651EC998C2004EEC3A /* AFSecurityPolicy.h */,
-				A46FFD661EC998C2004EEC3A /* AFSecurityPolicy.m */,
-				A46FFD671EC998C2004EEC3A /* AFURLRequestSerialization.h */,
-				A46FFD681EC998C2004EEC3A /* AFURLRequestSerialization.m */,
-				A46FFD691EC998C2004EEC3A /* AFURLResponseSerialization.h */,
-				A46FFD6A1EC998C2004EEC3A /* AFURLResponseSerialization.m */,
-				A46FFD6B1EC998C2004EEC3A /* AFURLSessionManager.h */,
-				A46FFD6C1EC998C2004EEC3A /* AFURLSessionManager.m */,
-			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A46FFD501EC997A3004EEC3A /* Build configuration list for PBXNativeTarget "SHFileDownloadDemo" */;
 			buildPhases = (
+				96B912E1EBA680A77D3008CF /* [CP] Check Pods Manifest.lock */,
 				A46FFD1F1EC997A2004EEC3A /* Sources */,
 				A46FFD201EC997A2004EEC3A /* Frameworks */,
 				A46FFD211EC997A2004EEC3A /* Resources */,
+				9018C75CD313C307E25FC85D /* [CP] Embed Pods Frameworks */,
+				9EF1944324D3A9D3C65FFD22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -328,21 +315,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9018C75CD313C307E25FC85D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHFileDownloadDemo/Pods-SHFileDownloadDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B912E1EBA680A77D3008CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EF1944324D3A9D3C65FFD22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHFileDownloadDemo/Pods-SHFileDownloadDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A46FFD1F1EC997A2004EEC3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A46FFD6F1EC998C2004EEC3A /* AFSecurityPolicy.m in Sources */,
-				A46FFD711EC998C2004EEC3A /* AFURLResponseSerialization.m in Sources */,
 				A46FFD2E1EC997A2004EEC3A /* ViewController.m in Sources */,
 				A46FFD2B1EC997A2004EEC3A /* AppDelegate.m in Sources */,
-				A46FFD6D1EC998C2004EEC3A /* AFHTTPSessionManager.m in Sources */,
-				A46FFD721EC998C2004EEC3A /* AFURLSessionManager.m in Sources */,
 				A46FFD281EC997A2004EEC3A /* main.m in Sources */,
-				A46FFD6E1EC998C2004EEC3A /* AFNetworkReachabilityManager.m in Sources */,
 				A46FFD5C1EC997BD004EEC3A /* DownloadFileTool.m in Sources */,
-				A46FFD701EC998C2004EEC3A /* AFURLRequestSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +518,7 @@
 		};
 		A46FFD511EC997A3004EEC3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4B9A116041194F94D7410DD /* Pods-SHFileDownloadDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WWZNZ7JUU2;
@@ -501,6 +531,7 @@
 		};
 		A46FFD521EC997A3004EEC3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55E6F5411C05060156B5BAC /* Pods-SHFileDownloadDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WWZNZ7JUU2;
