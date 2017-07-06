@@ -19,15 +19,13 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         manager = [[DownloadFileTool alloc] init];
-        manager.serializer = [AFHTTPRequestSerializer serializer];
+//        manager.serializer = [AFHTTPRequestSerializer serializer];
     });
     return manager;
 }
 
 /**
  *  根据url判断是否已经保存到本地了
- *
- *  @param url 文件的url
  *
  *  @return YES：本地已经存在，NO：本地不存在
  */
@@ -111,21 +109,26 @@
                       progress:(void (^)(float progress, long long downloadLength, long long totalLength))progress;
 {
     //默认配置,硬盘存储
-    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
-    // 1. 创建会话管理者
-    AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
-    
+//    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+
     BOOL isAlreadyExist = [self isSavedFileToLocalWithCreated:created fileName:fileName];
     if (isAlreadyExist) {//如果已经存在 取出展现
         
+        if (success) {
+            success(_downLoadOperation, nil);
+        }
         //删除后重新下载
-        [self cancleDownLoadFileWithCreated:created fileName:fileName];
+//        [self cancleDownLoadFileWithFileType:fileType fileName:fileName];
     }
+    // 1. 创建会话管理者
+//    AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     
     // 2. 创建下载路径和请求对象
     NSURL *URL = [NSURL URLWithString:requestURL];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
 //    NSMutableURLRequest *request = [_serializer requestWithMethod:@"POST" URLString:requestURL parameters:paramDic error:nil];
+    
     
     // 3.创建下载任务
     NSURLSessionDownloadTask *downloadTask = [manager downloadTaskWithRequest:request progress:^(NSProgress * _Nonnull downloadProgress) {
@@ -149,7 +152,7 @@
         return [NSURL fileURLWithPath:path];
         
     } completionHandler:^(NSURLResponse * _Nonnull response, NSURL * _Nullable filePath, NSError * _Nullable error) {
-        NSLog(@"File downloaded to: %@\n", [filePath path]);
+//        NSLog(@"File downloaded to: %@\n", [filePath path]);
         
         //下载完毕 将文件写入文件夹
         NSData *data = [NSData dataWithContentsOfURL:filePath];
@@ -169,6 +172,16 @@
         }
         
     }];
+    
+    //如果下载进度没有获取返回 可以利用这个方法获取下载进度
+//    [sessionManager setDownloadTaskDidWriteDataBlock:^(NSURLSession * _Nonnull session, NSURLSessionDownloadTask * _Nonnull downloadTask, int64_t bytesWritten, int64_t totalBytesWritten, int64_t totalBytesExpectedToWrite) {
+//        // 下载进度
+//        float progressPer = 1.0 * totalBytesWritten / fileTotalSize;
+//        NSLog(@"下载进度>>>>>>> %0.2f",progressPer);
+//        if (progress) {
+//            progress(progressPer);
+//        }
+//    }];
     self.downLoadOperation = downloadTask;
     
     // 4. 开启下载任务

@@ -521,11 +521,13 @@
 			baseConfigurationReference = C4B9A116041194F94D7410DD /* Pods-SHFileDownloadDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = WWZNZ7JUU2;
 				INFOPLIST_FILE = SHFileDownloadDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "http---www.jianshu.com-u-60dc3c4c6c3d.SHFileDownloadDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sh.SHFileDownloadDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -534,11 +536,13 @@
 			baseConfigurationReference = B55E6F5411C05060156B5BAC /* Pods-SHFileDownloadDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = WWZNZ7JUU2;
 				INFOPLIST_FILE = SHFileDownloadDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "http---www.jianshu.com-u-60dc3c4c6c3d.SHFileDownloadDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sh.SHFileDownloadDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -611,6 +615,7 @@
 				A46FFD521EC997A3004EEC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A46FFD531EC997A3004EEC3A /* Build configuration list for PBXNativeTarget "SHFileDownloadDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -619,6 +624,7 @@
 				A46FFD551EC997A3004EEC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A46FFD561EC997A3004EEC3A /* Build configuration list for PBXNativeTarget "SHFileDownloadDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -627,6 +633,7 @@
 				A46FFD581EC997A3004EEC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
